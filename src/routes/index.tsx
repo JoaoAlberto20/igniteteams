@@ -5,7 +5,7 @@ import { AppRoutes } from './app.routes'
 
 
 export function Routes() {
-  const {COLORS} = useTheme()
+  const { COLORS } = useTheme()
 
   return (
     <View style={{ flex: 1, backgroundColor: COLORS.GRAY_600  }}>
